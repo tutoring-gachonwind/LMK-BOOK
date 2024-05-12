@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viepoint" content="width=device-width, initial-scale=1.0">
+    <title>검색</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container mt-5">
+        <h1>검색</h1>
+        <form id="search-form">
+            <div class="form-group">
+                <label for="book-title">제목</label>
+                <input type="text" class="form-control" id="book-title" placeholder="제목을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="author">작가</label>
+                <input type="text" class="form-control" id="author" placeholder="작가를 입력하세요">
+            </div>
+            <button type="submit" class="btn btn-primary">검색</button>
+        </form>
+        <div id="results" class="mt-4">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!--자바스크립트를 쓸 필요는 없음-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
