@@ -10,12 +10,19 @@ html 및 css 구현 후 js 파일을 사용하여 교보문고 페이지를 불�
 ---
 
 + LMK BOOK
+
 >LMKBOOK.html
+>
 >검색.html
+>
 >책 정보.html
+>
 >style.css
->atyle2.css
+>
+>style2.css
+>
 >style3.css
+>
 >script.js
 
 ---
