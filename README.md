@@ -28,34 +28,22 @@ html 및 css 구현 후 js 파일을 사용하여 교보문고 페이지를 불�
 ---
 
 #### 검색 페이지
-<!DOCTYPE html>
-<head>
-    <title>책 검색</title>
-</head>
-<body>
-    <div>
-        <h1>책 검색</h1>
-        <input type="text" id="title" name="title" placeholder="내용 입력">
-        <button class="btn" onclick="location.href='책 정보.html'">검색</button>
-    </div>
-</body>
-</html>
+
+내용 입력란
+
+검색 버튼
+
 
 #### 책 정보 페이지
-<!DOCTYPE html>
-<head>
-    <title>책 정보</title>
-</head>
-<body>
-    <h1>LMK BOOK</h1>
-    <button id="btn1">책 보러가기</button>
-    <button id="btn2">비슷한 장르의 추천 책 보러가기</button>
-</body>
-</html>
+
+책 보러가기 버튼
+
+비슷한 장르의 추천 책 보러가기 버튼
 
 ---
 
 ###작동방식
+
 메인 페이지에서 책 검색 버튼을 누르면 검색 페이지로 연결됨
 
 검색 페이지에서 내용 입력 후 검색 버튼을 누르면 원하는 책 정보를 선택할 수 있는 페이지로 연결됨
